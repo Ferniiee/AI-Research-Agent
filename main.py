@@ -7,7 +7,7 @@ def save_report(topic: str, content: str):
     with open(filename, "w", encoding="utf-8") as f:
         f.write(f"# Research Report: {topic}\n\n")
         f.write(content)
-    print(f"\n✅ Report saved to {filename}")
+    print(f"\n Report saved to {filename}")
     return filename
 
 if __name__ == "__main__":
